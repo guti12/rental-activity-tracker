@@ -1,0 +1,29 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "A simple, mobile-friendly web app for landlords to track **time, mileage, and expenses** across rental properties.   Designed to generate **IRS-compliant logs** that support real estate professional status and provide CPA-ready exports.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guti12/rental-activity-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guti12/rental-activity-tracker/issues"
+  },
+  "homepage": "https://github.com/guti12/rental-activity-tracker#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.55.0",
+    "@tanstack/react-table": "^8.21.3",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.540.0",
+    "papaparse": "^5.5.3",
+    "react-hook-form": "^7.62.0",
+    "zod": "^4.0.17"
+  }
+}
